@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>GreenLeaf Veg Bistro | Pure Vegetarian Delights</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Pure vegetarian restaurant serving fresh pizzas, burgers, fries, momos, pasta and more." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- NAVBAR -->
+  <header class="nav">
+    <div class="nav-inner container">
+      <div class="nav-brand">
+        <div class="nav-logo-mark"></div>
+        <div class="nav-logo-text">
+          <span class="nav-logo-main">GreenLeaf Veg Bistro</span>
+          <span class="nav-logo-sub">Pure Vegetarian Kitchen</span>
+        </div>
+      </div>
+
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+
+      <div class="nav-links-wrap">
+        <nav class="nav-links">
+          <a href="#home" class="active">Home</a>
+          <a href="#menu">Menu</a>
+          <a href="#about">About</a>
+          <a href="#specials">Specials</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <div class="nav-right">
+          <span class="nav-pill">
+            <span class="nav-pill-dot"></span>
+            Open today till 11:00 PM
+          </span>
+          <button class="btn btn-primary" data-scroll="#order">Order Online</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="nav-mobile">
+      <div class="nav-mobile-panel container">
+        <nav class="nav-links-mobile">
+          <a href="#home">Home</a>
+          <a href="#menu">Menu</a>
+          <a href="#about">About</a>
+          <a href="#specials">Specials</a>
+          <a href="#contact">Contact</a>
+          <a href="#order">Order Online</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="home" class="hero section">
+      <div class="container hero-grid">
+        <div class="hero-text aos">
+          <div class="eyebrow-pill">
+            <span>🌿</span> Pure Veg · Family Friendly
+          </div>
+          <h1 class="hero-title">
+            Pure Veg Delights, <span>Served Fresh</span>
+          </h1>
+          <p class="hero-sub">
+            Enjoy delicious pizzas, burgers, fries, momos, and pasta made with love and 100% vegetarian ingredients.
+          </p>
+          <div class="hero-tags">
+            <span class="tag-pill">🥗 Farm-fresh veggies daily</span>
+            <span class="tag-pill">🔥 Made-to-order &amp; hot</span>
+            <span class="tag-pill">👨‍👩‍👧‍👦 Perfect for families</span>
+          </div>
+          <div class="hero-cta">
+            <button class="btn btn-primary" data-scroll="#order">Order Now</button>
+            <button class="btn btn-ghost" data-scroll="#menu">View Menu</button>
+          </div>
+          <div class="hero-meta">
+            <span class="hero-meta-dot"></span>
+            Trusted by 3,000+ happy veggie lovers
+          </div>
+        </div>
+
+        <div class="hero-media aos">
+          <div class="hero-img-wrap">
+            <img
+              src="https://images.pexels.com/photos/4109136/pexels-photo-4109136.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              alt="Assorted vegetarian dishes - pizza, fries, and salad"
+            />
+          </div>
+          <div class="hero-card hero-card-main">
+            <h3>Tonight’s Veg Favourites</h3>
+            <p>Wood-fired pizzas · Crispy masala fries</p>
+            <div class="hero-card-row">
+              <span>Avg. delivery · 20 min</span>
+              <span class="hero-rating">★ 4.8</span>
+            </div>
+          </div>
+          <div class="hero-card hero-card-tag">
+            <span>🍕</span>
+            <span>Try our Makhani Do Pyaza Pizza</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURED -->
+    <section class="section section-soft">
+      <div class="container">
+        <div class="section-head section-head-row">
+          <div>
+            <div class="eyebrow">Customer Favourites</div>
+            <h2 class="section-title">Featured Pure Veg Classics</h2>
+            <p class="section-sub">
+              A peek into the dishes our guests can’t stop ordering.
+            </p>
+          </div>
+          <div class="featured-controls">
+            <span class="featured-hint">Swipe or use arrows</span>
+            <button class="round-btn gallery-prev" aria-label="Previous dishes">‹</button>
+            <button class="round-btn gallery-next" aria-label="Next dishes">›</button>
+          </div>
+        </div>
+
+        <div class="featured-row aos">
+          <article class="dish-card" data-category="pizza">
+            <div class="dish-img">
+              <img
+                src="https://images.pexels.com/photos/1437267/pexels-photo-1437267.jpeg?auto=compress&cs=tinysrgb&w=800"
+                alt="Cheese pizza with herbs"
+              />
+              <span class="dish-tag">Pizza · Bestseller</span>
+            </div>
+            <div class="dish-body">
+              <h3>Cheese Pizza</h3>
+              <p>Classic, comforting, and loaded with golden cheese.</p>
+              <div class="dish-meta">
+                <span class="price">₹299</span>
+                <span class="chip">Perfect for sharing</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="dish-card" data-category="fries">
+            <div class="dish-img">
+              <img
+                src="https://images.pexels.com/photos/1583884/pexels-photo-1583884.jpeg?auto=compress&cs=tinysrgb&w=800"
+                alt="Masala fries in a bowl"
+              />
+              <span class="dish-tag">Fries · Spicy</span>
+            </div>
+            <div class="dish-body">
+              <h3>Masala Fries</h3>
+              <p>Crispy fries tossed in our desi spice mix.</p>
+              <div class="dish-meta">
+                <span class="price">₹169</span>
+                <span class="chip">Crispy &amp; addictive</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="dish-card" data-category="desserts">
+            <div class="dish-img">
+              <img
+                src="https://images.pexels.com/photos/884600/pexels-photo-884600.jpeg?auto=compress&cs=tinysrgb&w=800"
+                alt="Steamed vegetarian momos"
+              />
+              <span class="dish-tag">Momos · Light</span>
+            </div>
+            <div class="dish-body">
+              <h3>Steamed Momos</h3>
+              <p>Soft momos stuffed with fresh veggies &amp; paneer.</p>
+              <div class="dish-meta">
+                <span class="price">₹189</span>
+                <span class="chip">Serve with spicy chutney</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="dish-card" data-category="pasta">
+            <div class="dish-img">
+              <img
+                src="https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg?auto=compress&cs=tinysrgb&w=800"
+                alt="Creamy cheese pasta"
+              />
+              <span class="dish-tag">Pasta · Creamy</span>
+            </div>
+            <div class="dish-body">
+              <h3>Super Cheese Pasta</h3>
+              <p>Rich, creamy pasta with herbs and cheese.</p>
+              <div class="dish-meta">
+                <span class="price">₹259</span>
+                <span class="chip">Kids’ favourite</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- MENU / FILTER -->
+    <section id="menu" class="section">
+      <div class="container">
+        <div class="section-head">
+          <div class="eyebrow">Pure Veg Menu</div>
+          <h2 class="section-title">Explore Our Popular Categories</h2>
+          <p class="section-sub">
+            Tap a category to filter dishes. Every plate is 100% vegetarian, freshly prepared, and full of flavour.
+          </p>
+        </div>
+
+        <div class="filter-row">
+          <button class="filter-btn active" data-filter="all"><span>🌿</span>All</button>
+          <button class="filter-btn" data-filter="pizza"><span>🍕</span>Pizza</button>
+          <button class="filter-btn" data-filter="burgers"><span>🍔</span>Burgers &amp; Sandwiches</button>
+          <button class="filter-btn" data-filter="fries"><span>🍟</span>Fries</button>
+          <button class="filter-btn" data-filter="desserts"><span>🥟</span>Desserts / Specials</button>
+          <button class="filter-btn" data-filter="pasta"><span>🍝</span>Pasta</button>
+        </div>
+
+        <div class="menu-grid aos">
+          <!-- Pizza -->
+          <article class="menu-card" data-category="pizza">
+            <div class="menu-img">
+              <img src="https://images.pexels.com/photos/4109083/pexels-photo-4109083.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Cheese Pizza" />
+            </div>
+            <div class="menu-body">
+              <div class="menu-top">
+                <h3>Cheese Pizza</h3>
+                <span class="price">₹299</span>
+              </div>
+              <p>Thin crust with signature tomato sauce and extra mozzarella.</p>
+              <div class="menu-bottom">
+                <span class="chip">Pizza</span>
+                <span class="card-link">Add to order →</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="menu-card" data-category="pizza">
+            <div class="menu-img">
+              <img src="https://images.pexels.com/photos/5904725/pexels-photo-5904725.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Makhani Do Pyaza Pizza" />
+            </div>
+            <div class="menu-body">
+              <div class="menu-top">
+                <h3>Makhani Do Pyaza Pizza</h3>
+                <span class="price">₹339</span>
+              </div>
+              <p>Creamy makhani sauce, double onions, capsicum, and paneer.</p>
+              <div class="menu-bottom">
+                <span class="chip">Signature Pizza</span>
+                <span class="card-link">Add to order →</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="menu-card" data-category="pizza">
+            <div class="menu-img">
+              <img src="https://images.pexels.com/photos/1437268/pexels-photo-1437268.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Onion Pizza" />
+            </div>
+            <div class="menu-body">
+              <div class="menu-top">
+                <h3>Onion Pizza</h3>
+                <span class="price">₹289</span>
+              </div>
+              <p>Caramelised onions, cheese, and herbs on a crisp base.</p>
+              <div class="menu-bottom">
+                <span class="chip">Pizza</span>
+                <span class="card-link">Add to order →</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Burgers & Sandwiches -->
+          <article class="menu-card" data-category="burgers">
+            <div class="menu-img">
+              <img src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Cheese & Paneer Sandwich" />
+            </div>
+            <div class="menu-body">
+              <div class="menu-top">
+                <h3>Cheese &amp; Paneer Sandwich</h3>
+                <span class="price">₹199</span>
+              </div>
+              <p>Grilled sandwich with spiced paneer, melting cheese &amp; veggies.</p>
+              <div class="menu-bottom">
+                <span class="chip">Burgers &amp; Sandwiches</span>
+                <span class="card-link">Add to order →</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="menu-card" data-category="burgers">
+            <div class="menu-img">
+              <img src="https://images.pexels.com/photos/1583888/pexels-photo-1583888.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Classic Salted Fries" />
+            </div>
+            <div class="menu-body">
+              <div class="menu-top">
+                <h3>Classic Salted Fries</h3>
+                <span class="price">₹149</span>
+              </div>
+              <p>Golden, perfectly salted fries with creamy dip.</p>
+              <div class="menu-bottom">
+                <span class="chip">Burger Side</span>
+                <span class="card-link">Add to order →</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Fries -->
+          <article class="menu-card" data-category="fries">
+            <div class="menu-img">
+              <img src="https://images.pexels.com/photos/2696134/pexels-photo-2696134.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Masala Fries" />
+            </div>
+            <div class="menu-body">
+              <div class="menu-top">
+                <h3>Masala Fries</h3>
+                <span class="price">₹169</span>
+              </div>
+              <p>Crispy fries tossed in roasted spices and herbs.</p>
+              <div class="menu-bottom">
+                <span class="chip">Fries</span>
+                <span class="card-link">Add to order →</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="menu-card" data-category="fries">
+            <div class="menu-img">
+              <img src="https://images.pexels.com/photos/6184910/pexels-photo-6184910.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Peri Peri Fries" />
+            </div>
+            <div class="menu-body">
+              <div class="menu-top">
+                <h3>Peri Peri Fries</h3>
+                <span class="price">₹179</span>
+              </div>
+              <p>Crispy fries coated in zesty peri peri seasoning.</p>
+              <div class="menu-bottom">
+                <span class="chip">Spicy Fries</span>
+                <span class="card-link">Add to order →</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Desserts / Specials -->
+          <article class="menu-card" data-category="desserts">
+            <div class="menu-img">
+              <img src="https://images.pexels.com/photos/884596/pexels-photo-884596.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Steamed Momos" />
+            </div>
+            <div class="menu-body">
+              <div class="menu-top">
+                <h3>Steamed Momos</h3>
+                <span class="price">₹189</span>
+              </div>
+              <p>Soft dumplings with flavourful veggie filling &amp; chutney.</p>
+              <div class="menu-bottom">
+                <span class="chip">Desserts / Specials</span>
+                <span class="card-link">Add to order →</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="menu-card" data-category="desserts">
+            <div class="menu-img">
+              <img src="https://images.pexels.com/photos/884600/pexels-photo-884600.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Paneer Fried Momos" />
+            </div>
+            <div class="menu-body">
+              <div class="menu-top">
+                <h3>Paneer Fried Momos</h3>
+                <span class="price">₹219</span>
+              </div>
+              <p>Crispy fried momos with rich paneer filling.</p>
+              <div class="menu-bottom">
+                <span class="chip">Chef’s Special</span>
+                <span class="card-link">Add to order →</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Pasta -->
+          <article class="menu-card" data-category="pasta">
+            <div class="menu-img">
+              <img src="https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Super Cheese Pasta" />
+            </div>
+            <div class="menu-body">
+              <div class="menu-top">
+                <h3>Super Cheese Pasta</h3>
+                <span class="price">₹259</span>
+              </div>
+              <p>Silky cheese sauce, al dente pasta, and herbs.</p>
+              <div class="menu-bottom">
+                <span class="chip">Pasta</span>
+                <span class="card-link">Add to order →</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section section-soft">
+      <div class="container about-grid">
+        <div class="about-text aos">
+          <div class="eyebrow">Our Story</div>
+          <h2 class="section-title">A Pure Veg Kitchen with Heart</h2>
+          <p class="section-sub">
+            GreenLeaf Veg Bistro celebrates vegetables with bold flavours and honest cooking. Every dish is made from
+            scratch in a 100% vegetarian kitchen.
+          </p>
+          <div class="about-features">
+            <div class="about-item">
+              <span class="icon-circle">🥦</span>
+              <div>
+                <h3>Farm-fresh produce</h3>
+                <p>We handpick crisp veggies and premium ingredients daily.</p>
+              </div>
+            </div>
+            <div class="about-item">
+              <span class="icon-circle">🧑‍🍳</span>
+              <div>
+                <h3>Chef-crafted recipes</h3>
+                <p>Signature pizzas, momos, fries, and pasta with unique twists.</p>
+              </div>
+            </div>
+            <div class="about-item">
+              <span class="icon-circle">👨‍👩‍👧‍👦</span>
+              <div>
+                <h3>Family-friendly ambience</h3>
+                <p>Bright, welcoming interiors for cozy meals together.</p>
+              </div>
+            </div>
+            <div class="about-item">
+              <span class="icon-circle">🚚</span>
+              <div>
+                <h3>Quick delivery</h3>
+                <p>Fresh, hot food delivered to your doorstep in minutes.</p>
+              </div>
+            </div>
+          </div>
+          <div class="about-stats">
+            <div>
+              <span class="stat-main">3k+</span>
+              <span class="stat-label">Happy veggie diners</span>
+            </div>
+            <div>
+              <span class="stat-main">50+</span>
+              <span class="stat-label">Pure veg dishes</span>
+            </div>
+            <div>
+              <span class="stat-main">4.8★</span>
+              <span class="stat-label">Average rating</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-media aos">
+          <div class="about-main-img">
+            <img src="https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Vegetarian spread on a table" />
+          </div>
+          <div class="about-side-imgs">
+            <img src="https://images.pexels.com/photos/1640773/pexels-photo-1640773.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Veg burger and fries" />
+            <img src="https://images.pexels.com/photos/4109084/pexels-photo-4109084.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Friends enjoying food at a restaurant" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SPECIALS -->
+    <section id="specials" class="section">
+      <div class="container">
+        <div class="section-head">
+          <div class="eyebrow">Today’s Specials</div>
+          <h2 class="section-title">Chef’s Specials &amp; Offers</h2>
+          <p class="section-sub">
+            Limited-time creations and value combos that bring together your favourite vegetarian flavours in one plate.
+          </p>
+        </div>
+
+        <div class="specials-grid">
+          <div class="offer-card aos">
+            <div class="offer-tag">Tonight only</div>
+            <h3>Veg Feast Combo for Two</h3>
+            <p class="offer-sub">
+              Any one pizza, one fries, a plate of momos, and two drinks. Perfect for a hearty veg dinner.
+            </p>
+            <ul class="offer-list">
+              <li><span class="dot"></span>Cheese or Onion Pizza</li>
+              <li><span class="dot"></span>Masala or Peri Peri Fries</li>
+              <li><span class="dot"></span>Steamed or Paneer Fried Momos</li>
+              <li><span class="dot"></span>Two refreshing beverages</li>
+            </ul>
+            <p class="offer-meta">Starting at <strong>₹699</strong> · 6 PM – 11 PM</p>
+          </div>
+
+          <div class="chef-card aos">
+            <div class="chef-head">
+              <h3>Chef’s Handpicked Specials</h3>
+              <span class="chip chip-soft">Must-try this week</span>
+            </div>
+            <div class="chef-list">
+              <article class="chef-item">
+                <div class="chef-img">
+                  <img src="https://images.pexels.com/photos/4109122/pexels-photo-4109122.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Makhani Do Pyaza Pizza" />
+                </div>
+                <div>
+                  <h4>Makhani Do Pyaza Pizza</h4>
+                  <p>Smoky, creamy, and loaded with double onions &amp; paneer.</p>
+                  <span class="chef-tagline">Chef’s favourite</span>
+                </div>
+              </article>
+
+              <article class="chef-item">
+                <div class="chef-img">
+                  <img src="https://images.pexels.com/photos/884604/pexels-photo-884604.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Paneer Fried Momos" />
+                </div>
+                <div>
+                  <h4>Paneer Fried Momos</h4>
+                  <p>Ultra crispy outside, soft paneer filling inside.</p>
+                  <span class="chef-tagline">Crowd pleaser</span>
+                </div>
+              </article>
+
+              <article class="chef-item">
+                <div class="chef-img">
+                  <img src="https://images.pexels.com/photos/5908241/pexels-photo-5908241.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Super Cheese Pasta" />
+                </div>
+                <div>
+                  <h4>Super Cheese Pasta</h4>
+                  <p>A velvety cheese sauce with just the right seasoning.</p>
+                  <span class="chef-tagline">Best with garlic bread</span>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="section section-soft">
+      <div class="container">
+        <div class="section-head">
+          <div class="eyebrow">Happy Guests</div>
+          <h2 class="section-title">What People Are Saying</h2>
+          <p class="section-sub">
+            From family dinners to late-night cravings, see why veggie lovers keep coming back.
+          </p>
+        </div>
+
+        <div class="test-grid aos">
+          <article class="test-card">
+            <p>“The best pure veg pizzas in town! The Makhani Do Pyaza Pizza is unlike anything I’ve tried before.”</p>
+            <div class="test-foot">
+              <div>
+                <span class="test-name">Aditi Sharma</span>
+                <span class="test-meta">Visited with family</span>
+              </div>
+              <span class="test-stars">★★★★★</span>
+            </div>
+          </article>
+
+          <article class="test-card">
+            <p>“Super quick service, fresh food, and such a cozy vibe. My kids love the Super Cheese Pasta and fries.”</p>
+            <div class="test-foot">
+              <div>
+                <span class="test-name">Rahul Mehta</span>
+                <span class="test-meta">Regular customer</span>
+              </div>
+              <span class="test-stars">★★★★☆</span>
+            </div>
+          </article>
+
+          <article class="test-card">
+            <p>“As a vegetarian, it’s refreshing to have so many options. The momos and peri peri fries are a must!”</p>
+            <div class="test-foot">
+              <div>
+                <span class="test-name">Neha Verma</span>
+                <span class="test-meta">Delivery order</span>
+              </div>
+              <span class="test-stars">★★★★★</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ORDER CTA -->
+    <section id="order" class="section">
+      <div class="container">
+        <div class="cta-banner aos">
+          <div>
+            <h2>Craving something delicious right now?</h2>
+            <p>
+              Place your order online and enjoy your favourite pure veg dishes at home, fresh and piping hot.
+            </p>
+            <p class="cta-meta">
+              Pickup &amp; delivery · Customise spice levels · Freshly prepared for every order
+            </p>
+          </div>
+          <button class="btn btn-primary">Start Your Order</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer id="contact" class="footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>GreenLeaf Veg Bistro</h3>
+        <p>
+          A modern pure vegetarian restaurant serving comforting classics and fun favourites. Fresh ingredients, bold
+          flavours, and warm hospitality.
+        </p>
+        <div class="footer-pills">
+          <span class="footer-pill">🌿 100% vegetarian kitchen</span>
+          <span class="footer-pill">🚚 Fast delivery in your area</span>
+          <span class="footer-pill">👨‍👩‍👧‍👦 Family-friendly seating</span>
+        </div>
+      </div>
+      <div class="footer-cols">
+        <div>
+          <h4>Visit Us</h4>
+          <ul>
+            <li><strong>Address:</strong> 21, Green Street, Veggie Square, Your City</li>
+            <li><strong>Phone:</strong> +91-98765-43210</li>
+            <li><strong>Email:</strong> hello@greenleafvegbistro.com</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Opening Hours</h4>
+          <ul>
+            <li>Mon – Fri: 11:00 AM – 11:00 PM</li>
+            <li>Sat – Sun: 10:00 AM – 11:30 PM</li>
+            <li>Open on public holidays</li>
+          </ul>
+          <div class="social-row">
+            <a href="#" aria-label="Instagram">⌾</a>
+            <a href="#" aria-label="Facebook">f</a>
+            <a href="#" aria-label="Twitter">t</a>
+            <a href="#" aria-label="YouTube">▶</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <span>© <span id="yearSpan"></span> GreenLeaf Veg Bistro. All rights reserved.</span>
+        <span>Designed with love for pure vegetarian dining.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
+
